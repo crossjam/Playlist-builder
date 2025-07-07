@@ -1,0 +1,19 @@
+[project]
+name = "playlist-builder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Brian Dennis", email = "bmd+github@crossjam.net" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.0.0",
+]
+
+[project.scripts]
+plbuild = "playlist_builder:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
