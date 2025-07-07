@@ -50,9 +50,9 @@ python -m playlist_builder
 
 ```
 playlist-builder/
-├── src/playlist_builder/     # Main package
-│   └── __init__.py          # Entry point with main() function
-├── pyproject.toml           # Project configuration and dependencies
-├── .python-version          # Python version specification (3.13)
-└── .gitignore              # Standard Python gitignore
+|-- src/playlist_builder/     # Main package
+|   |-- __init__.py          # Entry point with main() function
+|-- pyproject.toml           # Project configuration and dependencies
+|-- .python-version          # Python version specification (3.13)
+|-- .gitignore              # Standard Python gitignore
 ```
